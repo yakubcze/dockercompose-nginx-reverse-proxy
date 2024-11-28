@@ -10,8 +10,8 @@ services:
 
 networks:
   site1:
-    external:
-      name: site1_default
+    name: site1_default
+    external: true
   site2:
-    external:
-      name: site2_default
+    name: site2_default
+    external: true

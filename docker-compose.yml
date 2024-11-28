@@ -1,0 +1,25 @@
+version: '3'
+services:
+  site1:
+    image: nginx:1.12
+    container_name: site1
+    volumes:
+      - ./site1:/usr/share/nginx/html/
+    expose:
+      - "80"
+
+  site2:
+    image: nginx:1.12
+    container_name: site2
+    volumes:
+      - .site2/:/usr/share/nginx/html/
+    expose:
+      - "80"
+
+  reverse_proxy:
+    image: nginx:1.12
+    container_name: proxy
+    volumes:
+      - .:/usr/share/nginx/html/
+    expose:
+      - "80"
