@@ -28,6 +28,7 @@ or
 	122.0.0.1  mly0037_2.eb212.local
 
 **Test if reverse proxy is working correctly:**
+
 site1:
 
     root@Jakub-T480s:/home/jakub/dockercompose-nginx-reverse-proxy# curl mly0037_1.eb212.local
