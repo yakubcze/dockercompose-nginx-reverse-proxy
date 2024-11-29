@@ -20,9 +20,6 @@ Launching
 
 **Edit /etc/hosts**
 
-	172.18.230.198  mly0037_1.eb212.local
-	172.18.230.198  mly0037_2.eb212.local
-or
 
 	127.0.0.1  mly0037_1.eb212.local
 	122.0.0.1  mly0037_2.eb212.local
